@@ -4,8 +4,14 @@ import './index.css';
 // import App from './App';
 // import ForgotPassword from './components/ForgotPassword';
 // import ResetPassword from './components/ResetPassword';
-import ResetPassword from './components/Login';
-import Login from './components/Login';
+// import ResetPassword from './components/Login';
+// import Login from './components/Login';
+// import UserList from './components/UserList';
+// import Dashboard from './components/Dashboard';
+import Navbar from './components/Navbar';
+// import Sidebar from './components/Sidebar';
+
+
 
 
 
@@ -15,6 +21,13 @@ root.render(
     {/* <App /> */}
     {/* <ForgotPassword /> */}
     {/* <ResetPassword /> */}
-    <Login/>
+    {/* <Login/> */}
+    {/* <Dashboard/> */}
+    {/* <Sidebar/> */}
+    <Navbar/>
+
+
+    {/* <UserList/> */}
+
   </React.StrictMode>
 );
